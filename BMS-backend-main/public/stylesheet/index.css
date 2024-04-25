@@ -1,0 +1,49 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 1.5px;
+  }
+
+  .displayed-Books {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height:30%;
+    width:20%;
+  }
+
+  
+
+  #btn {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  #btn:hover {
+    background-color: #45a049;
+  }
+
+  #btn:active {
+    background-color: #398439;
+  }
+
+  .displayed-Books p {
+    margin: 10px 0;
+  }
+
+  @media (max-width: 600px) {
+    .displayed-Books {
+      padding: 15px;
+    }
+  }

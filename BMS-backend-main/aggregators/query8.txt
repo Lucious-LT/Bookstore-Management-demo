@@ -1,0 +1,13 @@
+{
+  "grades.1.grade": "A",
+  "grades.1.score": 9,
+  "grades.1.date": new Date(
+    "2014-08-11T00:00:00Z"
+  ),
+}
+{
+  restaurant_id: 1,
+  name: 1,
+  grades: 1,
+  _id: 0,
+}

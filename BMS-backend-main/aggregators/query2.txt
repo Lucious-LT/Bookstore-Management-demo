@@ -1,0 +1,10 @@
+{
+  borough: "Bronx",
+  cuisine: {
+    $in: ["American", "Chinese"],
+  },
+}
+{
+  name: 1,
+  _id: 0,
+}
